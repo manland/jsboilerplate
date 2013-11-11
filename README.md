@@ -1,7 +1,7 @@
 jsboilerplate
 =============
 
-A light js boilerplate, based on grunt, bower and karma
+A light js boilerplate, based on grunt, bower, karma and travis !
 
 #Change
 
