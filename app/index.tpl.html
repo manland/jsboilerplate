@@ -9,35 +9,6 @@
   </head>
 	<body>
 
-    <div id="globalContainer" class="globalContainer"></div>
-    <div id="glass" class="glass"></div>
-    <div id="firstPopup" class="popup firstPopup">
-      <h1>Welcome in the Game !</h1>
-      <button id="firstPopupHelpButton">Help</button>
-      <button id="firstPopupStartButton">Start</button>
-    </div>
-    <div id="helpPopup" class="popup helpPopup">
-      <h1>Help</h1>
-      <ul>
-        <li>d&d card from backlog to dev</li>
-        <li>3 same cards adjacents == immediate do</li>
-        <li>each level pass == new dev or new task for a dev</li>
-      </ul>
-      <button id="helpPopupBackButton">Back</button>
-    </div>
-    <div id="chooseUserPopup" class="popup chooseUserPopup">
-      <h1>Choose your player !</h1>
-      <button id="chooseUserPopupDev1Button">
-        <img src="assets/img/dev1.png">
-        <div>Dev1</div>
-      </button>
-      <!-- <button>
-        <img src="assets/img/github.png">
-        <div>Connect Github</div>
-      </button> -->
-      <div><button id="chooseUserPopupBackButton">Back</button></div>
-    </div>
-		
     <% styles.forEach( function ( file ) { %>
       <link rel="stylesheet" type="text/css" href="<%= file %>" />
     <% }); %>
